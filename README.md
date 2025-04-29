@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+# Tracker Ibadah Harian
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplikasi mobile untuk melacak dan mencatat ibadah harian Anda. Dibangun menggunakan React Native dan Expo.
 
-## Get started
+## Persyaratan Sistem
 
-1. Install dependencies
+- Node.js (versi 14 atau lebih tinggi)
+- npm atau yarn
+- Expo CLI
+- Android Studio (untuk emulator Android)
+- Xcode (untuk simulator iOS, hanya macOS)
 
+## Cara Instalasi
+
+1. Clone repositori ini
+   ```bash
+   git clone [URL_REPOSITORI]
+   cd Tracker-Ibadah-Harian
+   ```
+
+2. Install semua dependensi yang diperlukan
    ```bash
    npm install
+   # atau
+   yarn install
    ```
 
-2. Start the app
-
+3. Install Expo CLI secara global (jika belum terinstall)
    ```bash
-    npx expo start
+   npm install -g expo-cli
    ```
 
-In the output, you'll find options to open the app in a
+## Menjalankan Aplikasi
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Jalankan aplikasi dengan perintah
+   ```bash
+   npx expo start
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2. Setelah aplikasi berjalan, Anda memiliki beberapa opsi untuk menjalankan aplikasi:
+   - Tekan `a` untuk menjalankan di emulator Android
+   - Tekan `i` untuk menjalankan di simulator iOS (hanya macOS)
+   - Scan QR code dengan aplikasi Expo Go di perangkat Android
+   - Scan QR code dengan kamera di perangkat iOS
 
-## Get a fresh project
+## Fitur Utama
 
-When you're ready, run:
+- Pencatatan ibadah harian
+- Statistik ibadah
+- Pengingat waktu ibadah
+- Riwayat ibadah
+- Profil pengguna
 
-```bash
-npm run reset-project
-```
+## Teknologi yang Digunakan
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- React Native
+- Expo
+- React Navigation
+- AsyncStorage
+- [Teknologi lainnya yang digunakan]
 
-## Learn more
+## Kontribusi
 
-To learn more about developing your project with Expo, look at the following resources:
+Silakan berkontribusi dengan membuat pull request atau melaporkan issues.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Lisensi
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[MIT License](LICENSE)
